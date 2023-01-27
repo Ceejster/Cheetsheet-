@@ -1,0 +1,112 @@
+header {
+    background-color: black;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+h4 {
+    background-color: black;
+    color: rgb(3, 160, 98);
+    width: fit-content;
+    font-size: 20px;
+    padding: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bigtitle {
+    font-size: 40px;
+    background-color: rgb(3, 160, 98);
+    text-align: center;
+    color: black;
+    margin: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+    background-color: rgb(3, 160, 98);
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+tr, td {
+    box-sizing: border-box;
+    border-color: rgb(3, 160, 98);
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bptable, .headertable, .maintable {
+    background-color: black;
+    color: rgb(3, 160, 98);
+    width: fit-content;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#layout {
+    background-size: cover;
+}
+
+#graynumber {
+    color: rgb(105, 105, 105)
+}
+
+.content {
+    overflow: scroll hidden;
+    width: 100%;
+    height: fit-content;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:visited {
+    color: rgb(3, 160, 98);
+}
+
+.references {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    width: max-content;
+    padding: 20px;
+}
+
+.matrixpic {
+    background-image: url("https://imgs.search.brave.com/_lIjCL2-tuFAvwKSGxIpaNXbadHjWJQkcRU7e9N6ec4/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly9pMS53/cC5jb20vYWR2ZXJn/aXplLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvbWF0cml4LXN0/cnVjdHVyZS5qcGVn/P2ZpdD0xMjAwJTJD/ODAwJnNzbD0x");
+    color: azure;
+    padding-bottom: 10px;
+   
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.unfinished {
+    color:aqua;
+}
+
+#languages, #command, #references {
+    background-color: gray;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

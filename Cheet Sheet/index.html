@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CJ's Cheet Sheet</title>
+        <link rel="stylesheet" href=".resources/css1/index.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#languages">Different Languages</a></li>
+                    <li><a href="#layout">Layout</a></li>
+                    <!--
+                    <li><a href="#colours">Colours in CSS</a></li>
+                    <li><a href="#typography">Typoghraphy</a></li>
+                    -->
+                    <li><a href="#command">Command Lines</a></li>   
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <article>
+                <div id="languages">
+                    <h1 class="bigtitle">Different Languages</h1>
+                    <h4>The 3 Honchos</h4>
+                        <p>There are three main languages that work together to help build websites, each have a different function and usability.<p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                    <div>
+                        <h4 class="languagetitle">HTML</h4>
+                        <p>Firstly let's learn about HTML and what it does, HTML stands for HyperText Markup Language it "is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript."
+                        <sup id="cite_ref-1" class="reference"><a href="#cite_note-1">1</a></sup></p>
+                    </div>
+
+                    <div>
+                        <h4 class="languagetitle">CSS</h4>
+                        <p>CSS also known as Cascading Style Sheets "is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
+                        <sup id="cite_ref-2" class="reference"><a href="#cite_note-2">2</a></sup></p>
+                    </div>
+
+                    <div>
+                        <h4 class="languagetitle">JavaScript</h4>
+                        <p>JavaScript is a high-level programming language, it is used by the vast majority to help incorporate third-party libraries. " All major web browsers have a dedicated JavaScript engine to execute the code on users' devices."
+                        <sup id="cite_ref-3" class="reference"><a href="#cite_note-3">3</a></sup></p>
+                </div>
+            </article>  
+                
+             <article class="matrixpic">   
+                <div id="layout" class="boilerplate">
+                    <h1 class="bigtitle">Layout</h1>
+                    <p>The start of every HTML document must look like this, it allows for browsers to read what is going on. This is how it will look broken up into section.</p>
+                    <p><strong>Boilerplate:</strong></p>
+                    <p class="bptable">
+                        <span id=graynumber>1 </span><span><</span>!DOCTYPE html<span>></span><br>
+                        <span id=graynumber>2 </span><span><</span>html lang="en"<span>></span><br>
+                        <span id=graynumber>3 </span><span><</span>head<span>></span><br>
+                        <span id=graynumber>4 </span><span><</span>meta charset="UTF-8"<span>></span><br>
+                        <span id=graynumber>5 </span><span><</span>meta http-equiv="X-UA-Compatible" content="IE=edge"<span>></span><br>
+                        <span id=graynumber>6 </span><span><</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span>></span><br>
+                        <span id=graynumber>7 </span><span><</span>title<span>></span> (What you want to appear in the browser) <span><</span>title<span>></span><br>
+                        <span id=graynumber>8 </span><span><</span>link rel="stylesheet" href=".resources/css1/index.css"<span>></span><br>
+                        <span id=graynumber>9 </span><span><</span>/head<span>></span></p>
+                </div>
+                <div id="body">
+                    <p>The <strong>body</strong> can be broken up into 3 main sections:</p>
+                    <ol>
+                        <li>header</li>
+                        <li>main</li>
+                        <li>footer</li>
+                    </ol>
+                    <p>All of these sections are embedded within the <span><</span>body<span>></span> elements but are created to help make everything look more readable. <p>
+                </div>
+                <div>
+                    <ol start="1"><li><strong>Header:</strong></li></ol>
+                    <p class="headertable">
+                        <span id=graynumber>10 </span><span><</span>body<span>></span><br>
+                        <span id=graynumber>11 </span><span><</span>header<span>></span><br> 
+                        <span id=graynumber>12 </span><span><</span>nav<span>></span><br>
+                        <span id=graynumber>13 </span><span><</span>ul or ol<span>></span> (if a list is required for navigation)<br>
+                        <span id=graynumber>14 </span><span><</span>li<span>></span> (can add as many as needed) <span><</span>/li<span>></span><br>
+                        <span id=graynumber>15 </span><span><</span>/ul or /ol<span>></span><br>
+                        <span id=graynumber>16 </span><span><</span>/nav<span>></span> <br>
+                        <span id=graynumber>17 </span><span><</span>img src="/" (if adding an image to the header)<span>></span><br>
+                        <span id=graynumber>18 </span><span><</span>/header<span>></span><br>
+                    </p>
+                    <p>The<span><</span>body<span>></span> element isn't shut yet because the other two parts will continue within it, as children. If you want to learn how to make the navigation buttons clickable <a href="unfinished" target="_blank" class="unfinished">click here</a> to read how.</p>
+                </div>
+                <div>
+                    <ol start="2"><li><strong>Main:</strong></li></ol>
+                    <p class="maintable">
+                        <span id=graynumber>19 </span><span><</span>main<span>></span><br>
+                        <span id=graynumber>20 </span><span><</span>article<span>></span><br>
+                        <span id=graynumber>21 </span><span><</span>div<span>></span><br>
+                        <span id=graynumber>22 </span><span><</span>h1<span>></span><span>(Title)<</span>h1<span>></span><br>
+                        <span id=graynumber>23 </span><span><</span>p<span>></span><span>(Content will go here.)<</span>p<span>></span><br>
+                        <span id=graynumber>24 </span><span><</span>/div<span>></span><br>
+                        <span id=graynumber>25 </span><span><</span>/article<span>></span><br>
+                        <span id=graynumber>26 </span><span><</span>/main<span>></span><br>
+                    </p>
+                    <p>You can add as many <span><</span>article<span>></span> and <span><</span>div<span>></span> as needed. This will help to break the code into pieces and make it easier to read. The more content that is added, the more <span><</span>div<span>></span> you will have. 
+                    </p>
+                </div>
+            </article>
+
+<!--- NOT NEEDED FOR NOW
+            <article>
+                <div id="colours">
+                    <h1 class="bigtitle">Colours</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tag</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span><</span>color<span>></span>
+                                </td>
+                                <td>Colours the font that is written.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+
+            <article>
+                <div id="typography">
+                    <h1 class="bigtitle">Typoghraphy</h1>
+                </div>
+            </article>
+ -->
+            <article>
+                <div id="command">
+                    <h1 class="bigtitle">Command Lines</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tag</th>
+                                <th>Name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr> 
+                                <td class="commandbox">pwd</td>
+                                <td>Print Working Order</td>
+                                <td>Outputs the name of the current working directory</td>
+                            </tr>
+                            <tr>
+                                <td class="commandbox">ls</td>
+                                <td>List</td>
+                                <td>Lists all files and directories in the working directory.</td>
+                            </tr>
+                            <tr>
+                                <td class="commandbox">mkdir</td>
+                                <td>Make Directory</td>
+                                <td>Creates a new directory in the working directory.</td>
+                            </tr>
+                            <tr>
+                                <td class="commandbox">cd</td>
+                                <td>Change Directory</td>
+                                <td>Switches you into the directory you specify.</td>
+                            </tr>
+                            <tr>
+                                <td class="commandbox">touch</td>
+                                <td>Create New File</td>
+                                <td>Creates a new file in the working directory with the name provided.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>        
+            
+            <footer id="references">
+                <h1 class="bigtitle">References</h1>
+                <ol>
+                <li id="cite_note-1" class="references"><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">https://en.wikipedia.org/wiki/HTML</a></li>
+                <li id="cite_note-2" class="references"><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">https://en.wikipedia.org/wiki/CSS</a></li>
+                <li id="cite_note-3" class="references"><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">https://en.wikipedia.org/wiki/JavaScript</a></li>
+                </ol>
+            </footer>
+        </main>
+        
+
+
+
+    </body>
+</html>
